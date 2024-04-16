@@ -1,0 +1,20 @@
+# IntelliJ
+######################
+.idea/
+*.iml
+*.iws
+*.ipr
+*.ids
+*.orig
+classes/
+out/
+/log/
+/target/
+
+######################
+# Package Files
+######################
+*.jar
+*.war
+*.ear
+*.db
