@@ -20,7 +20,7 @@ public class AuthorDAO implements IAuthorDAO {
     }
 
     public void create(Author author) {
-        jdbcTemplate.update("INSERT INTO authors id,first_name,last_name,age VALUES(?,?,?,?)",
+        jdbcTemplate.update("INSERT INTO authors (id,first_name,last_name,age) VALUES(?,?,?,?)",
                 author.getId(),author.getFirst_name(),author.getLast_name(),author.getAge()
                 );
     }
